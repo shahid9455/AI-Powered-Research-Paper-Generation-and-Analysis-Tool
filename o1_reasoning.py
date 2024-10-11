@@ -7,7 +7,7 @@ from docx import Document
 from fpdf import FPDF
 
 # Set up the AIMLAPI client for text and image generation
-openai.api_key = "9eb1650e11e549b4924fb444f2d3a682"
+openai.api_key = "Your AIMLAPI Key"
 openai.api_base = "https://api.aimlapi.com"
 
 # Mapping of user-friendly names to AIMLAPI model identifiers
